@@ -6,7 +6,6 @@ export const ThreeDMarquee = ({
   images,
   className
 }) => {
-  // Split the images array into 4 equal parts
   const chunkSize = Math.ceil(images.length / 4);
   const chunks = Array.from({ length: 4 }, (_, colIndex) => {
     const start = colIndex * chunkSize;
