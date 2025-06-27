@@ -22,8 +22,6 @@ function App() {
       <button onClick={startTimer}>Start</button>
       <button onClick={stopTimer}>Stop</button>
     </div>
-    
-    
   )
 }
 
